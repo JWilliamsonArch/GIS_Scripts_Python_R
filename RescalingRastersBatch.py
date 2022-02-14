@@ -4,7 +4,7 @@ import arcpy
 def main():
 
 # The raster_list will be a list of dictionaries, which is going to be the place where the name of the input raster, the
-# output raster and the scale will be studied.
+# output raster and the scale will be stored.
     raster_list = [
     ]
     on_off = ""
@@ -16,7 +16,7 @@ def main():
     scalefact = 0
 
     # This is the destination Geodatabase. It will prompt for the input.  Make sure that there is a backslash at the
-# end of it.
+# end of the GDB path.
     DestGDB = input("What is the destination Geodatabase called?")
 
     #This is the while loop to grab the values for where the features are coming from. It will run a loop through the
