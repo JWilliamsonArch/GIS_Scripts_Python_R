@@ -3,8 +3,8 @@ library(tidyverse)
 library(tmap)
 
 # Read in File
-Lines_File <- st_read("C:/Users/james.williamson/Downloads/Fw__Voisey's_Bay_Airborne_Geophysics_-_Permit_Application_and_LIL_Exploration_Work_Plan/2022 LIL Work Plan/GIS_Files/2022HEM_FlightLines_Plan_Updated_V1_ln.shp")
-# Set the CRS
+Lines_File <- st_read("YOUR_FILE_PATH")
+# Set the CRS- in this case I've just chosen one, but you may need to change it.
 st_crs(Lines_File) = 26920
 # Do the buffers to 150m
 Buffer_Lines <- st_buffer(Lines_File, 150)
