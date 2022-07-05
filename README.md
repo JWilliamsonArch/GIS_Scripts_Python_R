@@ -9,3 +9,5 @@ However, I'm making these as I'm learning coding in R and Python, so, if you hav
 2. Conv_GPX2CSV.R is a script for creating a CSV and a set of Shapefiles from a set of GPX waypoint files(such as those produced by Garmin).  
 It will ask for an input and an output folder path, and then create a file for the csv and the shapefiles.  
 One of the columns in these will be a geometry column that can be copied and pasted to make it more useful.
+
+3. Lines_To_ShapeAround.R is a small script to create a polygon, or a set of polygons around gridded lines.
