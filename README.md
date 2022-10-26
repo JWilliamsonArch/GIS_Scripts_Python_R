@@ -11,3 +11,5 @@ It will ask for an input and an output folder path, and then create a file for t
 One of the columns in these will be a geometry column that can be copied and pasted to make it more useful.
 
 3. Lines_To_ShapeAround.R is a small script to create a polygon, or a set of polygons around gridded lines.
+
+4. Plotting_with_ggplot_and_st_bbox.R is a sample script for plotting a shapefile with a backdrop, and setting bounds to the overlain GIS File.
