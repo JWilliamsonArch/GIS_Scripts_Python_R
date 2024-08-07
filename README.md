@@ -16,3 +16,5 @@ One of the columns in these will be a geometry column that can be copied and pas
 
 5. Negated_Spatial_Query.R is a small script to negate a spatial query.  As noted, this should have worked differently, however, I couldn't get the original version of 
 the negated query with st_filter to work, so this is a positive to negative query transformation.
+
+6. Leaflet_Little_Bits.R is a short script for R which changes an undefined layer "fc" to '4326', and then adds it to a leaflet map.
